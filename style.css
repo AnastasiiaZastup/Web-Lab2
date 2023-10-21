@@ -1,0 +1,102 @@
+.container {
+    max-width: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*======header=======*/
+
+
+/*======section1========*/
+
+.title-and-btn {
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+}
+
+.title-first {
+    width: 126px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #111111;
+    font-family: Staatliches;
+    font-size: 21.892px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*======section2========*/
+
+.title-back {
+    margin-top: 34px;
+    color: #000;
+    text-align: center;
+    font-family: Share;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.givback-text {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #000;
+    text-align: center;
+    font-family: Share;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ul-givback {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    
+}
+
+/*======section3========*/
+
+.dogs-ul{
+    display: flex;
+}
+
+.title-shop {
+    color: #000;
+    text-align: center;
+    font-family: Share;
+    font-size: 18.713px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
