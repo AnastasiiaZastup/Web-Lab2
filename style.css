@@ -27,6 +27,11 @@
     overflow: hidden;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 /*======header=======*/
 
 
@@ -99,4 +104,58 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.btn {
+    width: 104px;
+    height: 25.094px;
+    flex-shrink: 0;
+    border: 0px solid #000;
+    background: #321E5D;
+    color: #FFF;
+    text-align: center;
+    font-family: Share;
+    font-size: 11.153px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    display: block;
+
+}
+
+/*======section4========*/
+
+.ul-about {
+    
+    padding: 0px;
+    margin: 0 auto;
+    display: block;
+}
+.text-h-about {
+    color: #000;
+    text-align: center;
+    font-family: Staatliches;
+    font-size: 17.679px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 183.623px;
+}
+
+.text-p-about {
+    color: #000;
+    font-family: Share;
+    font-size: 13.259px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 296.116px;
+}
+
+/*======footer========*/
+
+
+.location-footer {
+    display: flex; 
 }
