@@ -30,6 +30,7 @@
 ul {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 /*======header=======*/
@@ -158,4 +159,100 @@ ul {
 
 .location-footer {
     display: flex; 
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-li-link {
+    color: #000000;
+}
+
+.various {
+    color: #979797;
+    font-family: Share;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-footer .footer-adress-link {
+    color: #000;
+    font-family: Share;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address-text {
+    color: #000;
+    font-family: Share;
+    font-size: 8.601px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1440px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+        }
+
+    .title-first {
+    margin-top: 45px;
+    width: 518px;
+    height: 443px;
+    font-size: 85px;
+    color: #FFF;
+    }
+
+    .section1 {
+        background-image: url(./img/laptop/dog1x.png);
+        max-width: 1440px;
+        height: 700px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    .btn {
+        width: 240px;
+        height: 56px;
+        font-size: 25px;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+
+    .title-back {
+        color: #000;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        margin-top: 30px;
+    }
+
+    .givback-text {
+        color: #000;
+        font-size: 25px;
+        margin-top: -30px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .ul-li-givback{
+        width: 1200px;
+    }
+
+    
+    
+    
 }
